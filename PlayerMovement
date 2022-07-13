@@ -1,0 +1,14 @@
+while (true) {
+  if (isKeyPressed.isWPressed()) {
+    moveForward(10);
+  } else if (isKeyPressed.isSPressed()) {
+      moveBackward(10);
+    } else if (isKeyPressed.isAPressed()) {
+        moveSidewaysLeft(10);
+      } else if (isKeyPressed.isDPressed()) {
+          moveSidewaysRight(10);
+        }
+      }
+    }
+  }
+}
